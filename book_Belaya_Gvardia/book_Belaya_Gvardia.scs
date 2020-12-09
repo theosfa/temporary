@@ -322,7 +322,7 @@ book_Belaya_Gvardia => nrel_plot:.book_Belaya_Gvardia_events
                     (*
                         -> char_Aleksej_Turbin;
                            char_Elena_Turbina;
-                           char_Nikolka;
+                           char_Nikolka;;
                     *);;
                     => nrel_plot_sequence:
                         .book_Belaya_Gvardia_event_2;;
@@ -334,7 +334,7 @@ book_Belaya_Gvardia => nrel_plot:.book_Belaya_Gvardia_events
                 <= nrel_sc_text_translation:
                     ...
                     (*
-                        -> "file://content/content_htmls/events/book_Belaya_Gvardia_event_1.html" (* <-lang_ru;; *);;
+                        -> "file://content/content_htmls/events/book_Belaya_Gvardia_event_2.html" (* <-lang_ru;; *);;
                     *);;
                     <- event_dispute;;
                     <= nrel_participants:...
@@ -345,5 +345,335 @@ book_Belaya_Gvardia => nrel_plot:.book_Belaya_Gvardia_events
                     *);;
                     => nrel_plot_sequence:
                         .book_Belaya_Gvardia_event_3;;
+            *);;
+        -> .book_Belaya_Gvardia_event_3
+            (*
+                => nrel_main_idtf: [Событие №3. Встреча с друзьями] (* <-lang_ru;; *);;
+                <= nrel_sc_text_translation:
+                    ...
+                    (*
+                        -> "file://content/content_htmls/events/book_Belaya_Gvardia_event_3.html" (* <-lang_ru;; *);;
+                    *);;
+                    <- event_dispute;;
+                    <= nrel_participants:...
+                    (*
+                        -> char_Vasilij_Lisovich;
+                           char_Nai_Turs;
+                           char_Sergey_Talberg;
+                           char_father_Andrey;
+                           char_Viktor_Mishlaevskij;
+                           char_Leonid_Shervinskij;
+                           char_Fedor_Stepanov;
+                           char_Malishev;
+                           char_Kozir_Leshko;
+                           char_Larion_Surzhanskij;
+                    *);;
+                    => nrel_plot_sequence:
+                        .book_Belaya_Gvardia_event_4;;
+            *);;
+        -> .book_Belaya_Gvardia_event_4
+            (*
+                => nrel_main_idtf: [Событие №4. Бегство в Киев] (* <-lang_ru;; *);;
+                <= nrel_sc_text_translation:
+                    ...
+                    (*
+                        -> "file://content/content_htmls/events/book_Belaya_Gvardia_event_4.html" (* <-lang_ru;; *);;
+                    *);;
+                    <- event_dispute;;
+                    <= nrel_participants:...
+                    (*
+                        -> char_Aleksej_Turbin;
+                           char_Elena_Turbina;
+                           char_Nikolka;
+                    *);;
+                    => nrel_plot_sequence:
+                        .book_Belaya_Gvardia_event_5;;
+            *);;
+        -> .book_Belaya_Gvardia_event_5
+            (*
+                => nrel_main_idtf: [Событие №5. СТревожная весна] (* <-lang_ru;; *);;
+                <= nrel_sc_text_translation:
+                    ...
+                    (*
+                        -> "file://content/content_htmls/events/book_Belaya_Gvardia_event_5.html" (* <-lang_ru;; *);;
+                    *);;
+                    <- event_dispute;;
+                    <= nrel_participants:...
+                    (*
+                        -> char_Aleksej_Turbin;
+                           char_Elena_Turbina;
+                           char_Nikolka;
+                    *);;
+                    => nrel_plot_sequence:
+                        .book_Belaya_Gvardia_event_6;;
+            *);;
+        -> .book_Belaya_Gvardia_event_6
+            (*
+                => nrel_main_idtf: [Событие №6. Запись добровольцев в Мортирный Дивизион] (* <-lang_ru;; *);;
+                <= nrel_sc_text_translation:
+                    ...
+                    (*
+                        -> "file://content/content_htmls/events/book_Belaya_Gvardia_event_6.html" (* <-lang_ru;; *);;
+                    *);;
+                    <- event_dispute;;
+                    <= nrel_participants:...
+                    (*
+                        -> char_Aleksej_Turbin;
+                           char_Elena_Turbina;
+                           char_Nikolka;
+                    *);;
+                    => nrel_plot_sequence:
+                        .book_Belaya_Gvardia_event_7;;
+            *);;
+        -> .book_Belaya_Gvardia_event_7
+            (*
+                => nrel_main_idtf: [Событие №7. Роспуск мортирного дивизиона] (* <-lang_ru;; *);;
+                <= nrel_sc_text_translation:
+                    ...
+                    (*
+                        -> "file://content/content_htmls/events/book_Belaya_Gvardia_event_7.html" (* <-lang_ru;; *);;
+                    *);;
+                    <- event_dispute;;
+                    <= nrel_participants:...
+                    (*
+                        -> char_Aleksej_Turbin;
+                           char_Elena_Turbina;
+                           char_Nikolka;
+                    *);;
+                    => nrel_plot_sequence:
+                        .book_Belaya_Gvardia_event_8;;
+            *);;
+        -> .book_Belaya_Gvardia_event_8
+            (*
+                => nrel_main_idtf: [Событие №8. Нападение на Киев] (* <-lang_ru;; *);;
+                <= nrel_sc_text_translation:
+                    ...
+                    (*
+                        -> "file://content/content_htmls/events/book_Belaya_Gvardia_event_8.html" (* <-lang_ru;; *);;
+                    *);;
+                    <- event_dispute;;
+                    <= nrel_participants:...
+                    (*
+                        -> char_Aleksej_Turbin;
+                           char_Elena_Turbina;
+                           char_Nikolka;
+                    *);;
+                    => nrel_plot_sequence:
+                        .book_Belaya_Gvardia_event_9;;
+            *);;
+        -> .book_Belaya_Gvardia_event_9
+            (*
+                => nrel_main_idtf: [Событие №9. Броневик] (* <-lang_ru;; *);;
+                <= nrel_sc_text_translation:
+                    ...
+                    (*
+                        -> "file://content/content_htmls/events/book_Belaya_Gvardia_event_9.html" (* <-lang_ru;; *);;
+                    *);;
+                    <- event_dispute;;
+                    <= nrel_participants:...
+                    (*
+                        -> char_Aleksej_Turbin;
+                           char_Elena_Turbina;
+                           char_Nikolka;
+                    *);;
+                    => nrel_plot_sequence:
+                        .book_Belaya_Gvardia_event_10;;
+            *);;
+        -> .book_Belaya_Gvardia_event_10
+            (*
+                => nrel_main_idtf: [Событие №10. Формирование второго отдела дружины] (* <-lang_ru;; *);;
+                <= nrel_sc_text_translation:
+                    ...
+                    (*
+                        -> "file://content/content_htmls/events/book_Belaya_Gvardia_event_10.html" (* <-lang_ru;; *);;
+                    *);;
+                    <- event_dispute;;
+                    <= nrel_participants:...
+                    (*
+                        -> char_Aleksej_Turbin;
+                           char_Elena_Turbina;
+                           char_Nikolka;
+                    *);;
+                    => nrel_plot_sequence:
+                        .book_Belaya_Gvardia_event_11;;
+            *);;
+        -> .book_Belaya_Gvardia_event_11
+            (*
+                => nrel_main_idtf: [Событие №11. Взятие Киева] (* <-lang_ru;; *);;
+                <= nrel_sc_text_translation:
+                    ...
+                    (*
+                        -> "file://content/content_htmls/events/book_Belaya_Gvardia_event_11.html" (* <-lang_ru;; *);;
+                    *);;
+                    <- event_dispute;;
+                    <= nrel_participants:...
+                    (*
+                        -> char_Aleksej_Turbin;
+                           char_Elena_Turbina;
+                           char_Nikolka;
+                    *);;
+                    => nrel_plot_sequence:
+                        .book_Belaya_Gvardia_event_12;;
+            *);;
+        -> .book_Belaya_Gvardia_event_12
+            (*
+                => nrel_main_idtf: [Событие №12. Незнакомез] (* <-lang_ru;; *);;
+                <= nrel_sc_text_translation:
+                    ...
+                    (*
+                        -> "file://content/content_htmls/events/book_Belaya_Gvardia_event_12.html" (* <-lang_ru;; *);;
+                    *);;
+                    <- event_dispute;;
+                    <= nrel_participants:...
+                    (*
+                        -> char_Aleksej_Turbin;
+                           char_Elena_Turbina;
+                           char_Nikolka;
+                    *);;
+                    => nrel_plot_sequence:
+                        .book_Belaya_Gvardia_event_13;;
+            *);;
+        -> .book_Belaya_Gvardia_event_13
+            (*
+                => nrel_main_idtf: [Событие №13. Встреча с петлюровцами] (* <-lang_ru;; *);;
+                <= nrel_sc_text_translation:
+                    ...
+                    (*
+                        -> "file://content/content_htmls/events/book_Belaya_Gvardia_event_13.html" (* <-lang_ru;; *);;
+                    *);;
+                    <- event_dispute;;
+                    <= nrel_participants:...
+                    (*
+                        -> char_Aleksej_Turbin;
+                           char_Elena_Turbina;
+                           char_Nikolka;
+                    *);;
+                    => nrel_plot_sequence:
+                        .book_Belaya_Gvardia_event_14;;
+            *);;
+        -> .book_Belaya_Gvardia_event_14
+            (*
+                => nrel_main_idtf: [Событие №14. Неожиданная встреча (* <-lang_ru;; *);;
+                <= nrel_sc_text_translation:
+                    ...
+                    (*
+                        -> "file://content/content_htmls/events/book_Belaya_Gvardia_event_14.html" (* <-lang_ru;; *);;
+                    *);;
+                    <- event_dispute;;
+                    <= nrel_participants:...
+                    (*
+                        -> char_Aleksej_Turbin;
+                           char_Elena_Turbina;
+                           char_Nikolka;
+                    *);;
+                    => nrel_plot_sequence:
+                        .book_Belaya_Gvardia_event_15;;
+            *);;
+        -> .book_Belaya_Gvardia_event_15
+            (*
+                => nrel_main_idtf: [Событие №15. Пришествие грбителей] (* <-lang_ru;; *);;
+                <= nrel_sc_text_translation:
+                    ...
+                    (*
+                        -> "file://content/content_htmls/events/book_Belaya_Gvardia_event_15.html" (* <-lang_ru;; *);;
+                    *);;
+                    <- event_dispute;;
+                    <= nrel_participants:...
+                    (*
+                        -> char_Aleksej_Turbin;
+                           char_Elena_Turbina;
+                           char_Nikolka;
+                    *);;
+                    => nrel_plot_sequence:
+                        .book_Belaya_Gvardia_event_16;;
+            *);;
+        -> .book_Belaya_Gvardia_event_16
+            (*
+                => nrel_main_idtf: [Событие №16. Большевики на площади] (* <-lang_ru;; *);;
+                <= nrel_sc_text_translation:
+                    ...
+                    (*
+                        -> "file://content/content_htmls/events/book_Belaya_Gvardia_event_16.html" (* <-lang_ru;; *);;
+                    *);;
+                    <- event_dispute;;
+                    <= nrel_participants:...
+                    (*
+                        -> char_Aleksej_Turbin;
+                           char_Elena_Turbina;
+                           char_Nikolka;
+                    *);;
+                    => nrel_plot_sequence:
+                        .book_Belaya_Gvardia_event_17;;
+            *);;
+        -> .book_Belaya_Gvardia_event_17
+            (*
+                => nrel_main_idtf: [Событие №17. Смерть полковника Най-Турса] (* <-lang_ru;; *);;
+                <= nrel_sc_text_translation:
+                    ...
+                    (*
+                        -> "file://content/content_htmls/events/book_Belaya_Gvardia_event_17.html" (* <-lang_ru;; *);;
+                    *);;
+                    <- event_dispute;;
+                    <= nrel_participants:...
+                    (*
+                        -> char_Aleksej_Turbin;
+                           char_Elena_Turbina;
+                           char_Nikolka;
+                    *);;
+                    => nrel_plot_sequence:
+                        .book_Belaya_Gvardia_event_18;;
+            *);;
+        -> .book_Belaya_Gvardia_event_18
+            (*
+                => nrel_main_idtf: [Событие №18. Возвращение Алексеея в строй] (* <-lang_ru;; *);;
+                <= nrel_sc_text_translation:
+                    ...
+                    (*
+                        -> "file://content/content_htmls/events/book_Belaya_Gvardia_event_18.html" (* <-lang_ru;; *);;
+                    *);;
+                    <- event_dispute;;
+                    <= nrel_participants:...
+                    (*
+                        -> char_Aleksej_Turbin;
+                           char_Elena_Turbina;
+                           char_Nikolka;
+                    *);;
+                    => nrel_plot_sequence:
+                        .book_Belaya_Gvardia_event_19;;
+            *);;
+        -> .book_Belaya_Gvardia_event_19
+            (*
+                => nrel_main_idtf: [Событие №19. Письмо из Варшавы] (* <-lang_ru;; *);;
+                <= nrel_sc_text_translation:
+                    ...
+                    (*
+                        -> "file://content/content_htmls/events/book_Belaya_Gvardia_event_19.html" (* <-lang_ru;; *);;
+                    *);;
+                    <- event_dispute;;
+                    <= nrel_participants:...
+                    (*
+                        -> char_Aleksej_Turbin;
+                           char_Elena_Turbina;
+                           char_Nikolka;
+                    *);;
+                    => nrel_plot_sequence:
+                        .book_Belaya_Gvardia_event_20;;
+            *);;
+        -> .book_Belaya_Gvardia_event_20
+            (*
+                => nrel_main_idtf: [Событие №20. Зеленый луг] (* <-lang_ru;; *);;
+                <= nrel_sc_text_translation:
+                    ...
+                    (*
+                        -> "file://content/content_htmls/events/book_Belaya_Gvardia_event_20.html" (* <-lang_ru;; *);;
+                    *);;
+                    <- event_dispute;;
+                    <= nrel_participants:...
+                    (*
+                        -> char_Aleksej_Turbin;
+                           char_Elena_Turbina;
+                           char_Nikolka;
+                    *);;
+
             *);;
     *);;
