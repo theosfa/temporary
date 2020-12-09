@@ -1,0 +1,349 @@
+//Белая гвардия, М. А. Булгаков
+
+book_Belaya_Gvardia
+    => nrel_main_idtf:
+        ["Белая гвардия"]
+            (* <- lang_ru;; *);
+    <- book;
+    <- genre_novel;
+
+    => nrel_author:
+        person_Bulgakov_Mikhail_Afanasyevich;
+    <= nrel_original_language:
+        lang_ru;
+    => nrel_publication_date:
+        year_1918;;
+
+book_Belaya_Gvardia
+    <= nrel_characters:
+        .book_Belaya_Gvardia
+        (*
+            -> rrel_main_character:
+                    char_Aleksej_Turbin;
+                    char_Elena_Turbina;
+                    char_Nikolka;;
+            -> char_Vasilij_Lisovich;
+               char_Nai_Turs;
+               char_Sergey_Talberg;
+               char_father_Andrey;
+               char_Viktor_Mishlaevskij;
+               char_Leonid_Shervinskij;
+               char_Fedor_Stepanov;
+               char_Malishev;
+               char_Kozir_Leshko;
+               char_Larion_Surzhanskij;;
+        *);;
+
+book_Belaya_Gvardia
+=> nrel_location:
+    .book_Belaya_Gvardia_location
+    (*
+	   -> Kiev;;
+    *);;
+
+char_Aleksej_Turbin
+        => nrel_main_idtf:
+            ["Алексей Турбин"] (* <-lang_ru;; *);
+        <- lit_person;
+        <- person;
+        <- male;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Алексей Турбин)] (* <-lang_ru;; *);;
+                <= sc_text_translation:
+                    ...
+                    (*
+                        -> "file://content/content_htmls/characters/char_Aleksej_Turbin.html" (* <-lang_ru;; *);;
+                    *);;
+            *);;
+
+char_Elena_Turbina
+        => nrel_main_idtf:
+            ["Елена Турбина"] (* <-lang_ru;; *);
+        <- lit_person;
+        <- person;
+        <- female;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Елена Турбина)] (* <-lang_ru;; *);;
+                <= sc_text_translation:
+                    ...
+                    (*
+                        -> "file://content/content_htmls/characters/char_Elena_Turbina.html" (* <-lang_ru;; *);;
+                    *);;
+            *);;
+
+char_Nikolka
+        => nrel_main_idtf:
+            [Николка] (* <-lang_ru;; *);
+        <- lit_person;
+        <- person;
+        <- male;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Николка)] (* <-lang_ru;; *);;
+                <= sc_text_translation:
+                    ...
+                    (*
+                        -> "file://content/content_htmls/characters/char_Nikolka.html" (* <-lang_ru;; *);;
+                    *);;
+            *);;
+
+char_Vasilij_Lisovich
+        => nrel_main_idtf:
+            ["Василий Лисович"] (* <-lang_ru;; *);
+        <- lit_person;
+        <- background_character;
+        <- person;
+        <- female;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Василий Лисович)] (* <-lang_ru;; *);;
+                <= sc_text_translation:
+                    ...
+                    (*
+                        -> "file://content/content_htmls/characters/char_Vasilij_Lisovich.html" (* <-lang_ru;; *);;
+                    *);;
+            *);;
+
+char_Nai_Turs
+        => nrel_main_idtf:
+            ["Най-Турс"] (* <-lang_ru;; *);
+        <- lit_person;
+        <- background_character;
+        <- person;
+        <- female;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Най-Турс)] (* <-lang_ru;; *);;
+                <= sc_text_translation:
+                    ...
+                    (*
+                        -> "file://content/content_htmls/characters/char_Nai_Turs.html" (* <-lang_ru;; *);;
+                    *);;
+            *);;
+
+char_Sergey_Talberg
+        => nrel_main_idtf:
+            ["Сергей Тальберг"] (* <-lang_ru;; *);
+        <- lit_person;
+        <- background_character;
+        <- person;
+        <- female;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Сергей Тальберг)] (* <-lang_ru;; *);;
+                <= sc_text_translation:
+                    ...
+                    (*
+                        -> "file://content/content_htmls/characters/char_Sergey_Talberg.html" (* <-lang_ru;; *);;
+                    *);;
+            *);;
+
+char_Stephan_Bogdanovich_Likhodeyev
+        => nrel_main_idtf:
+            ["отец Александр"] (* <-lang_ru;; *);
+        <- lit_person;
+        <- background_character;
+        <- person;
+        <- male;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(отец Александр)] (* <-lang_ru;; *);;
+                <= sc_text_translation:
+                    ...
+                    (*
+                        -> "file://content/content_htmls/characters/сhar_father_Andrey.html" (* <-lang_ru;; *);;
+                    *);;
+            *);;
+
+char_Stephan_Bogdanovich_Likhodeyev
+        => nrel_main_idtf:
+            ["отец Александр"] (* <-lang_ru;; *);
+        <- lit_person;
+        <- background_character;
+        <- person;
+        <- male;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(отец Александр)] (* <-lang_ru;; *);;
+                <= sc_text_translation:
+                    ...
+                    (*
+                        -> "file://content/content_htmls/characters/сhar_father_Andrey.html" (* <-lang_ru;; *);;
+                    *);;
+            *);;
+
+char_Viktor_Mishlaevskij
+        => nrel_main_idtf:
+            ["Виктор Мышлаевский"] (* <-lang_ru;; *);
+        <- lit_person;
+        <- background_character;
+        <- person;
+        <- male;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Виктор Мышлаевский)] (* <-lang_ru;; *);;
+                <= sc_text_translation:
+                    ...
+                    (*
+                        -> "file://content/content_htmls/characters/char_Viktor_Mishlaevskij.html" (* <-lang_ru;; *);;
+                    *);;
+            *);;
+
+char_Leonid_Shervinskij
+        => nrel_main_idtf:
+            ["Леонид Шервинский"] (* <-lang_ru;; *);
+        <- lit_person;
+        <- background_character;
+        <- person;
+        <- male;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Леонид Шервинский)] (* <-lang_ru;; *);;
+                <= sc_text_translation:
+                    ...
+                    (*
+                        -> "file://content/content_htmls/characters/char_Leonid_Shervinskij.html" (* <-lang_ru;; *);;
+                    *);;
+            *);;
+
+char_Fedor_Stepanov
+        => nrel_main_idtf:
+            ["Фёдор Степанов"] (* <-lang_ru;; *);
+        <- lit_person;
+        <- background_character;
+        <- person;
+        <- male;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Фёдор Степанов)] (* <-lang_ru;; *);;
+                <= sc_text_translation:
+                    ...
+                    (*
+                        -> "file://content/content_htmls/characters/char_Fedor_Stepanov.html" (* <-lang_ru;; *);;
+                    *);;
+            *);;
+
+char_Malishev
+        => nrel_main_idtf:
+            ["Малышев"] (* <-lang_ru;; *);
+        <- lit_person;
+        <- background_character;
+        <- person;
+        <- male;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Малышев)] (* <-lang_ru;; *);;
+                <= sc_text_translation:
+                    ...
+                    (*
+                        -> "file://content/content_htmls/characters/char_Malishev.html" (* <-lang_ru;; *);;
+                    *);;
+            *);;
+
+char_Kozir_Leshko
+        => nrel_main_idtf:
+            ["Козырь-Лешко"] (* <-lang_ru;; *);
+        <- lit_person;
+        <- background_character;
+        <- person;
+        <- male;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Козырь-Лешко)] (* <-lang_ru;; *);;
+                <= sc_text_translation:
+                    ...
+                    (*
+                        -> "file://content/content_htmls/characters/char_Kozir_Leshko.html" (* <-lang_ru;; *);;
+                    *);;
+            *);;
+
+char_Larion_Surzhanskij
+        => nrel_main_idtf:
+            ["Ларион Суржанский"] (* <-lang_ru;; *);
+        <- lit_person;
+        <- background_character;
+        <- person;
+        <- male;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Ларион Суржанский)] (* <-lang_ru;; *);;
+                <= sc_text_translation:
+                    ...
+                    (*
+                        -> "file://content/content_htmls/characters/char_Larion_Surzhanskij.html" (* <-lang_ru;; *);;
+                    *);;
+            *);;
+
+book_Belaya_Gvardia => nrel_plot:.book_Belaya_Gvardia_events
+    (*
+        => nrel_main_idtf: [Сюжет. "Белая Гвардия"] (* <-lang_ru;; *);;
+        -> key_sc_element: book_Belaya_Gvardia;;
+
+        -> .book_Belaya_Gvardia_event_1
+            (*
+                => nrel_main_idtf: [Событие №1. Круговорот революции] (* <-lang_ru;; *);;
+                <= nrel_sc_text_translation:
+                    ...
+                    (*
+                        -> "file://content/content_htmls/events/book_Belaya_Gvardia_event_1.html" (* <-lang_ru;; *);;
+                    *);;
+                    <- event_dispute;;
+                    <= nrel_participants:...
+                    (*
+                        -> char_Aleksej_Turbin;
+                           char_Elena_Turbina;
+                           char_Nikolka;
+                    *);;
+                    => nrel_plot_sequence:
+                        .book_Belaya_Gvardia_event_2;;
+            *);;
+
+        -> .book_Belaya_Gvardia_event_2
+            (*
+                => nrel_main_idtf: [Событие №2. Смерть матери Турбиних] (* <-lang_ru;; *);;
+                <= nrel_sc_text_translation:
+                    ...
+                    (*
+                        -> "file://content/content_htmls/events/book_Belaya_Gvardia_event_1.html" (* <-lang_ru;; *);;
+                    *);;
+                    <- event_dispute;;
+                    <= nrel_participants:...
+                    (*
+                        -> char_Aleksej_Turbin;
+                           char_Elena_Turbina;
+                           char_Nikolka;
+                    *);;
+                    => nrel_plot_sequence:
+                        .book_Belaya_Gvardia_event_3;;
+            *);;
+    *);;
